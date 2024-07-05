@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    border-top: 6px solid maroon;
+}
+.container
+{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    background-color: #fff9db;
+}
+.frst-header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    background-color: wheat;
+}
+.top-border
+{
+    width: 100%;
+    height: 10px;
+
+}
+.nav-header 
+{
+    display: flex ;
+    gap: 10px;
+}
+.author-box
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.art-1
+{
+    margin-bottom: 10px;
+    color: darkred;
+    width: 50%;
+    position: relative;
+    background-color: #ffc078;
+    
+}
+.art-2
+{
+    margin-top: 20px;
+}
+.sub-1
+{
+    margin-bottom: 20px;
+    color: darkred;
+}
+.art-3
+{
+    display: block; 
+    margin-bottom: 20px;
+    color: darkred;
+    background-color: burlywood;
+}
+.text
+{
+    text-align: center;
+    margin-top: 20px;
+    background-color: 
+}
+.nav-header a:hover
+{
+    cursor: cell;
+    background-color: #ffa94d;
+}
+.nav-header a:link,.nav-header a:active,.nav-header a:visited
+{
+    text-decoration: none;
+    color: #ffa94d;
+}
+.text
+{
+    width: 350px;
+    padding: 30px;
+    background-color: bisque;
+    border-top: 10px solid darkred;
+    border-bottom: 10px solid darkred ;
+    margin-top: 125px;
+}
+.list-1
+{
+    background-color: bisque ;
+}
+.list-1 li:last-child
+{
+    margin-bottom: 0px;
+}
+.list-11
+{
+    display: flex;
+    color: maroon;
+    margin-bottom: 30px;
+    background-color: burlywood; 
+    gap: 10px;
+    
+}
+.l1 a:hover
+{
+    cursor: cell;
+    background-color: #ffa94d;
+}
+.l1 a:link,.l1 a:active,.l1 a:visited
+{
+    text-decoration: none;
+    color: #e67700;
+}
+.list-11 a:link,.list-11 a:active,.list-11 a:visited
+{
+    text-decoration: none;
+    color: #e67700;
+}
+.list-11 a:hover
+{
+    cursor: cell;
+    background-color: #ffa94d;
+}
+.cpy
+{
+    margin-top: 20px;
+    background-color: #ffa94d;
+}
+.pic
+{
+    width: 100%;
+}
+.merge-box
+{
+    display: flex;
+    align-items: start;
+    gap: 50px;
+    margin-top: 50px;
+}
+.top
+{
+    display: inline-block;
+    background-color:#e8590c ;
+    padding: 5px;
+    letter-spacing: 5px;
+    padding-left: 10px;
+    position: absolute;
+    top: 140px;
+    right: 550px;
+
+}
+
